@@ -1,0 +1,4 @@
+# ninja log v5
+0	3349	1709127883156231404	/home/zl/siren-main/detr/models/ops/build/temp.linux-x86_64-3.9/home/zl/siren-main/detr/models/ops/src/cpu/ms_deform_attn_cpu.o	b757537d737e717d
+1	14146	1709127893940251474	/home/zl/siren-main/detr/models/ops/build/temp.linux-x86_64-3.9/home/zl/siren-main/detr/models/ops/src/cuda/ms_deform_attn_cuda.o	9e3edb8b6b4ba47d
+1	17908	1709127897716258327	/home/zl/siren-main/detr/models/ops/build/temp.linux-x86_64-3.9/home/zl/siren-main/detr/models/ops/src/vision.o	85c6fadab5673ca
