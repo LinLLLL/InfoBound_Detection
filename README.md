@@ -3,7 +3,7 @@
 This is the source code accompanying the paper [***InfoBound: A Provable Information-Bounds Inspired Framework for Both OoD Generalization and OoD Detection***](https://ieeexplore.ieee.org/abstract/document/11112669) 
 
 
-The codebase is heavily based on [SIREN](https://github.com/deeplearning-wisc/siren) and [GroundingDINO](https://github.com/IDEA-Research/GroundingDINO).
+The codebase is heavily based on [SIREN](https://github.com/deeplearning-wisc/siren) and [Detr](https://github.com/facebookresearch/detr).
 
 ## Dataset Preparation for OoD Detection
 
