@@ -3,7 +3,7 @@
 This is the source code accompanying the paper [***InfoBound: A Provable Information-Bounds Inspired Framework for Both OoD Generalization and OoD Detection***](https://ieeexplore.ieee.org/abstract/document/11112669) 
 
 
-The codebase is heavily based on [SIREN](https://github.com/deeplearning-wisc/siren) and [Detr](https://github.com/facebookresearch/detr).
+The codebase is heavily based on [SIREN](https://github.com/deeplearning-wisc/siren) and [detr](https://github.com/facebookresearch/detr).
 
 ## Dataset Preparation for OoD Detection
 
@@ -88,7 +88,7 @@ In this paper, we introduce the standard dataset comprising both covariate shift
 
 The large-scale automatic driving dataset, BDD100K, is considered to evaluate OoD generalization performances. BDD100 K contains 80,000 labeled images with 10 annotated object categories, including Pedestrian, Rider, Car, Truck, Bus, Train, Motorcycle, Bicycle, Traffic light, and Traffic sign. Each image has three attribute labels which indicate the condition, including the weather, scene and time for data collection and we remove the images with an undefined attribute label. Following the previous study of DetectBench, we construct OoD environments using the attribute weather labels. Specifically, the ID training examples are sampled with attribute weather labels including “clear” and “overcast”, while the covariate-shifted data is constructed with examples under “rainy”, “foggy”, “partly cloudy”, and “snowy”. For semantic-out data, we use the subset of validation sets from MS-COCO and OpenImages as with the previous studies. 
 
-<img src="bdd-data.png" alt="image-20260527173923449" style="zoom:47%;" />
+<img src="bdd-data.png" alt="image-20260527173923449" style="zoom:37%;" />
 
 **BDD-100k**
 
